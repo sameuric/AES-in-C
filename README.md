@@ -3,6 +3,7 @@ Advanced Encryption Standard (AES) implementation in C
 
 AES is the most widely adopted symmetric encryption standard nowadays. This repository contains an implementation in C of the AES-128 algorithm. The program takes two arguments: a 32-bytes hexadecimal string representing the 128-bit input block, and another 32-bytes hexadecimal string representing the 128-bit key. It then outputs the corresponding ciphertext in hexadecimal form.
 
+AES Reference: https://doi.org/10.6028/NIST.FIPS.197-upd1
 
 ![image](https://github.com/user-attachments/assets/900b8428-7ed6-4c77-9a9c-df00db352c40)
 
