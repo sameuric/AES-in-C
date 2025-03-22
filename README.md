@@ -23,13 +23,18 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
 Then, clone this repository in any location on your computer and double-click on `build.bat`.  
-You should now see the program's output.
+You should now see the following program's output:
+```
+CIPHERTEXT: 732281c0a0aab8f7a54a0c67a0c45ecf
+```
 
+The corresponding plaintext and key to obtain this ciphertext are encoded within the `build.bat` file.
 
 Usage and test vectors
 ----------------------
 
-The program takes two arguments: a 32-bytes hexadecimal string representing the 128-bit input block, and another 32-bytes hexadecimal string representing the 128-bit key. It then outputs the corresponding ciphertext in hexadecimal form. You can find some test vectors on the official NIST website [on this page](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/block-ciphers).  
+The program takes two arguments: a 32-bytes hexadecimal string representing the 128-bit input block, and another 32-bytes hexadecimal string representing the 128-bit key. It then outputs the corresponding ciphertext in hexadecimal form.  
+You can find some test vectors on the official NIST website [on this page](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/block-ciphers).  
 
 For example, with the following sample data set:  
 ```
